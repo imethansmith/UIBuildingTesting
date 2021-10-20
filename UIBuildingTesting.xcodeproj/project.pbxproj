@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E656F15271CC09600CF20C2 /* HomeDSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E656F14271CC09600CF20C2 /* HomeDSG.swift */; };
 		3E656F17271CC09E00CF20C2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E656F16271CC09E00CF20C2 /* Post.swift */; };
+		3EA18CD7271FECCA00AFBB99 /* ModelTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA18CD6271FECCA00AFBB99 /* ModelTesting.swift */; };
 		3EDD28CA271F460600C826AC /* SUIBookLayoutTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD28C9271F460600C826AC /* SUIBookLayoutTesting.swift */; };
 		3EE8C574271A0AA300DFBB7E /* UIBuildingTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8C573271A0AA300DFBB7E /* UIBuildingTestingApp.swift */; };
 		3EE8C576271A0AA300DFBB7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8C575271A0AA300DFBB7E /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		3E656F14271CC09600CF20C2 /* HomeDSG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDSG.swift; sourceTree = "<group>"; };
 		3E656F16271CC09E00CF20C2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3EA18CD6271FECCA00AFBB99 /* ModelTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTesting.swift; sourceTree = "<group>"; };
 		3EDD28C9271F460600C826AC /* SUIBookLayoutTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIBookLayoutTesting.swift; sourceTree = "<group>"; };
 		3EE8C570271A0AA300DFBB7E /* UIBuildingTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBuildingTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE8C573271A0AA300DFBB7E /* UIBuildingTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBuildingTestingApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				3EE8C573271A0AA300DFBB7E /* UIBuildingTestingApp.swift */,
 				3EE8C575271A0AA300DFBB7E /* ContentView.swift */,
 				3EDD28C9271F460600C826AC /* SUIBookLayoutTesting.swift */,
+				3EA18CD6271FECCA00AFBB99 /* ModelTesting.swift */,
 				3EE8C577271A0AA800DFBB7E /* Assets.xcassets */,
 				3EE8C579271A0AA800DFBB7E /* Preview Content */,
 			);
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE8C576271A0AA300DFBB7E /* ContentView.swift in Sources */,
+				3EA18CD7271FECCA00AFBB99 /* ModelTesting.swift in Sources */,
 				3EE8C586271A0B2600DFBB7E /* Home.swift in Sources */,
 				3EE8C58B271A165B00DFBB7E /* BlurView.swift in Sources */,
 				3EE8C574271A0AA300DFBB7E /* UIBuildingTestingApp.swift in Sources */,
