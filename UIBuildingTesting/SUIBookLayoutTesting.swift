@@ -12,7 +12,7 @@ struct SUIBookLayoutTesting: View {
     @State var expanded = true
     var body: some View {
         VStack {
-            RectangleWithNotification(count: 1)
+            RectangleWithNotification()
                 .padding()
             HStack {
                 Collapsible(data: colors, expanded: expanded) { (item: (Color, CGFloat)) in
@@ -31,12 +31,12 @@ struct SUIBookLayoutTesting: View {
 }
 
 struct RectangleWithNotification: View {
-
-    @State var count: Int
+    @State var count: Int = 0
     var body: some View {
         HStack {
-            Button() {
+            Button {
                 count += 1
+                print(count)
             } label: {
                 Text("Add")
             }
@@ -45,14 +45,14 @@ struct RectangleWithNotification: View {
                     .frame(width: 100, height: 60)
                     .foregroundColor(Color.green)
                     .overlay(Text("Hello"))
-                    .overlay(NotificationModifier(count: count), alignment: .topTrailing)
+                    .overlay(NotificationModifier(count: $count), alignment: .topTrailing)
             }
         }
     }
 }
 
 struct NotificationModifier: View {
-    @State var count: Int
+    @Binding var count: Int
     var body: some View {
         HStack {
             ZStack {

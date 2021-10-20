@@ -11,6 +11,7 @@ struct HomeDSG: View {
     @State var posts: [Post] = []
     @State var currentPost: String = ""
     @State var menusShown: Bool = true
+    
     var body: some View {
         // Double Sided Gallery
         TabView(selection: $currentPost) {
